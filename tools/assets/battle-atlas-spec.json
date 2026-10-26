@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "canvas": [512, 512],
+  "trim": true,
+  "padding": 4,
+  "powerOfTwo": true,
+  "maximumAtlas": [2048, 2048],
+  "animations": {
+    "idle": {"fps": 12, "loop": true},
+    "anticipation": {"fps": 18, "loop": false},
+    "attack": {"fps": 24, "loop": false},
+    "ability": {"fps": 24, "loop": false},
+    "hit": {"fps": 18, "loop": false},
+    "victory": {"fps": 18, "loop": true}
+  },
+  "naming": "<skin>/<animation>_<frame:04>.png",
+  "runtimePivot": [0.5, 0.82]
+}

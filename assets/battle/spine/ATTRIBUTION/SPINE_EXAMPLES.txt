@@ -1,0 +1,4 @@
+Owl, Raptor, and Dragon skeletons are example exports from Esoteric Software's
+spine-runtimes repository (https://github.com/EsotericSoftware/spine-runtimes).
+They require a Spine license for commercial redistribution of the runtimes;
+example assets are provided by Esoteric for evaluating Spine runtimes.

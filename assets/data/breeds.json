@@ -1,0 +1,119 @@
+{
+  "Abyssinian": {
+    "displayName": "Abyssinian",
+    "attack": 74,
+    "defense": 55,
+    "speed": 88,
+    "ability": "Desert Dash",
+    "abilityDesc": "High speed; chance to strike twice.",
+    "accent": "#C47A3A"
+  },
+  "Bengal": {
+    "displayName": "Bengal",
+    "attack": 86,
+    "defense": 60,
+    "speed": 90,
+    "ability": "Wild Stripe",
+    "abilityDesc": "Bonus damage on first attack.",
+    "accent": "#D97706"
+  },
+  "Birman": {
+    "displayName": "Birman",
+    "attack": 62,
+    "defense": 78,
+    "speed": 58,
+    "ability": "Temple Guard",
+    "abilityDesc": "Raises defense when HP is low.",
+    "accent": "#E8D5B7"
+  },
+  "Bombay": {
+    "displayName": "Bombay",
+    "attack": 80,
+    "defense": 70,
+    "speed": 72,
+    "ability": "Night Panther",
+    "abilityDesc": "Crit chance up in low light.",
+    "accent": "#1F2937"
+  },
+  "British Shorthair": {
+    "displayName": "British Shorthair",
+    "attack": 65,
+    "defense": 88,
+    "speed": 48,
+    "ability": "Stiff Upper Lip",
+    "abilityDesc": "Resists status effects.",
+    "accent": "#94A3B8"
+  },
+  "Egyptian Mau": {
+    "displayName": "Egyptian Mau",
+    "attack": 70,
+    "defense": 65,
+    "speed": 95,
+    "ability": "Sun Sprint",
+    "abilityDesc": "Always acts first in sunny conditions.",
+    "accent": "#D4A574"
+  },
+  "Maine Coon": {
+    "displayName": "Maine Coon",
+    "attack": 78,
+    "defense": 82,
+    "speed": 55,
+    "ability": "Gentle Giant",
+    "abilityDesc": "High HP; knockback resistance.",
+    "accent": "#92400E"
+  },
+  "Persian": {
+    "displayName": "Persian",
+    "attack": 55,
+    "defense": 90,
+    "speed": 40,
+    "ability": "Fluff Shield",
+    "abilityDesc": "Absorbs a portion of incoming damage.",
+    "accent": "#F5E6D3"
+  },
+  "Ragdoll": {
+    "displayName": "Ragdoll",
+    "attack": 58,
+    "defense": 75,
+    "speed": 50,
+    "ability": "Floppy Dodge",
+    "abilityDesc": "Chance to ignore a hit entirely.",
+    "accent": "#FDE68A"
+  },
+  "Russian Blue": {
+    "displayName": "Russian Blue",
+    "attack": 68,
+    "defense": 72,
+    "speed": 80,
+    "ability": "Silver Mirage",
+    "abilityDesc": "Evasion boost after taking damage.",
+    "accent": "#64748B"
+  },
+  "Siamese": {
+    "displayName": "Siamese",
+    "attack": 78,
+    "defense": 50,
+    "speed": 92,
+    "ability": "Vocal Barrage",
+    "abilityDesc": "High chance to interrupt enemy ability.",
+    "accent": "#FEF3C7"
+  },
+  "Sphynx": {
+    "displayName": "Sphynx",
+    "attack": 82,
+    "defense": 48,
+    "speed": 85,
+    "ability": "Bare Knuckle",
+    "abilityDesc": "Ignores a portion of enemy defense.",
+    "accent": "#FCA5A5"
+  },
+  "Mixed": {
+    "displayName": "Mixed / Unknown",
+    "attack": 68,
+    "defense": 68,
+    "speed": 68,
+    "ability": "Wildcard",
+    "abilityDesc": "Random bonus each battle — chaos energy.",
+    "accent": "#8B5CF6"
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "skeleton": {
+    "hash": "catdex-tabby",
+    "spine": "4.3.75-beta",
+    "x": -150.0,
+    "y": 0,
+    "width": 300,
+    "height": 400,
+    "images": "./",
+    "audio": ""
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "hip",
+      "parent": "root",
+      "y": 40
+    },
+    {
+      "name": "body",
+      "parent": "hip",
+      "y": 80
+    },
+    {
+      "name": "head",
+      "parent": "body",
+      "y": 120
+    }
+  ],
+  "slots": [
+    {
+      "name": "body",
+      "bone": "body",
+      "attachment": "idle"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "body": {
+          "idle": {
+            "width": 300,
+            "height": 400,
+            "y": 200.0
+          },
+          "scratch": {
+            "width": 300,
+            "height": 400,
+            "y": 200.0
+          },
+          "pounce": {
+            "width": 300,
+            "height": 400,
+            "y": 200.0
+          },
+          "special": {
+            "width": 300,
+            "height": 400,
+            "y": 200.0
+          },
+          "flurry": {
+            "width": 300,
+            "height": 400,
+            "y": 200.0
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "idle": {
+      "bones": {
+        "body": {
+          "translate": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.7,
+              "y": 10
+            },
+            {
+              "time": 1.4,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.7,
+              "x": 1.02,
+              "y": 0.98
+            },
+            {
+              "time": 1.4,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "head": {
+          "rotate": [
+            {
+              "value": 0
+            },
+            {
+              "time": 0.7,
+              "value": 3
+            },
+            {
+              "time": 1.4,
+              "value": 0
+            }
+          ]
+        }
+      }
+    },
+    "scratch": {
+      "slots": {
+        "body": {
+          "attachment": [
+            {
+              "name": "scratch"
+            },
+            {
+              "time": 0.5,
+              "name": "idle"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "body": {
+          "translate": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.12,
+              "x": 55,
+              "y": 8
+            },
+            {
+              "time": 0.35,
+              "x": 70,
+              "y": 0
+            },
+            {
+              "time": 0.55,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "rotate": [
+            {
+              "value": 0
+            },
+            {
+              "time": 0.12,
+              "value": -12
+            },
+            {
+              "time": 0.55,
+              "value": 0
+            }
+          ]
+        }
+      }
+    },
+    "pounce": {
+      "slots": {
+        "body": {
+          "attachment": [
+            {
+              "name": "pounce"
+            },
+            {
+              "time": 0.55,
+              "name": "idle"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "hip": {
+          "translate": [
+            {
+              "y": 0
+            },
+            {
+              "time": 0.08,
+              "y": -20
+            },
+            {
+              "time": 0.28,
+              "x": 90,
+              "y": 70
+            },
+            {
+              "time": 0.55,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.08,
+              "x": 1.1,
+              "y": 0.85
+            },
+            {
+              "time": 0.28,
+              "x": 0.9,
+              "y": 1.15
+            },
+            {
+              "time": 0.55,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      }
+    },
+    "special": {
+      "slots": {
+        "body": {
+          "attachment": [
+            {
+              "name": "special"
+            },
+            {
+              "time": 0.7,
+              "name": "idle"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "body": {
+          "rotate": [
+            {
+              "value": 0
+            },
+            {
+              "time": 0.2,
+              "value": 360
+            },
+            {
+              "time": 0.45,
+              "value": 360
+            },
+            {
+              "time": 0.7,
+              "value": 360
+            }
+          ],
+          "scale": [
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.25,
+              "x": 1.25,
+              "y": 1.25
+            },
+            {
+              "time": 0.7,
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "translate": [
+            {
+              "x": 0
+            },
+            {
+              "time": 0.35,
+              "x": 40
+            },
+            {
+              "time": 0.7,
+              "x": 0
+            }
+          ]
+        }
+      }
+    },
+    "flurry": {
+      "slots": {
+        "body": {
+          "attachment": [
+            {
+              "name": "scratch"
+            },
+            {
+              "time": 0.12,
+              "name": "pounce"
+            },
+            {
+              "time": 0.24,
+              "name": "scratch"
+            },
+            {
+              "time": 0.36,
+              "name": "special"
+            },
+            {
+              "time": 0.5,
+              "name": "idle"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "body": {
+          "translate": [
+            {
+              "x": 0
+            },
+            {
+              "time": 0.1,
+              "x": 40
+            },
+            {
+              "time": 0.2,
+              "x": -10
+            },
+            {
+              "time": 0.3,
+              "x": 50
+            },
+            {
+              "time": 0.5,
+              "x": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

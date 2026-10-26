@@ -1,0 +1,219 @@
+{
+  "n": 2400,
+  "detect_rate": 1.0,
+  "breed_top1": 0.9166666666666666,
+  "breed_top1_given_detect": 0.9166666666666666,
+  "per_breed": {
+    "Abyssinian": {
+      "n": 200,
+      "ok": 190,
+      "detect": 200,
+      "acc": 0.95,
+      "detect_rate": 1.0
+    },
+    "Bengal": {
+      "n": 200,
+      "ok": 178,
+      "detect": 200,
+      "acc": 0.89,
+      "detect_rate": 1.0
+    },
+    "Birman": {
+      "n": 200,
+      "ok": 171,
+      "detect": 200,
+      "acc": 0.855,
+      "detect_rate": 1.0
+    },
+    "Bombay": {
+      "n": 200,
+      "ok": 199,
+      "detect": 200,
+      "acc": 0.995,
+      "detect_rate": 1.0
+    },
+    "British_Shorthair": {
+      "n": 200,
+      "ok": 186,
+      "detect": 200,
+      "acc": 0.93,
+      "detect_rate": 1.0
+    },
+    "Egyptian_Mau": {
+      "n": 200,
+      "ok": 189,
+      "detect": 200,
+      "acc": 0.945,
+      "detect_rate": 1.0
+    },
+    "Maine_Coon": {
+      "n": 200,
+      "ok": 175,
+      "detect": 200,
+      "acc": 0.875,
+      "detect_rate": 1.0
+    },
+    "Persian": {
+      "n": 200,
+      "ok": 188,
+      "detect": 200,
+      "acc": 0.94,
+      "detect_rate": 1.0
+    },
+    "Ragdoll": {
+      "n": 200,
+      "ok": 191,
+      "detect": 200,
+      "acc": 0.955,
+      "detect_rate": 1.0
+    },
+    "Russian_Blue": {
+      "n": 200,
+      "ok": 162,
+      "detect": 200,
+      "acc": 0.81,
+      "detect_rate": 1.0
+    },
+    "Siamese": {
+      "n": 200,
+      "ok": 177,
+      "detect": 200,
+      "acc": 0.885,
+      "detect_rate": 1.0
+    },
+    "Sphynx": {
+      "n": 200,
+      "ok": 194,
+      "detect": 200,
+      "acc": 0.97,
+      "detect_rate": 1.0
+    }
+  },
+  "top_confusions": [
+    {
+      "gt": "Russian_Blue",
+      "pred": "British_Shorthair",
+      "n": 34
+    },
+    {
+      "gt": "Birman",
+      "pred": "Ragdoll",
+      "n": 25
+    },
+    {
+      "gt": "Bengal",
+      "pred": "Egyptian_Mau",
+      "n": 15
+    },
+    {
+      "gt": "Maine_Coon",
+      "pred": "Ragdoll",
+      "n": 14
+    },
+    {
+      "gt": "Siamese",
+      "pred": "Birman",
+      "n": 14
+    },
+    {
+      "gt": "Ragdoll",
+      "pred": "Birman",
+      "n": 9
+    },
+    {
+      "gt": "Persian",
+      "pred": "Ragdoll",
+      "n": 8
+    },
+    {
+      "gt": "Egyptian_Mau",
+      "pred": "Bengal",
+      "n": 7
+    },
+    {
+      "gt": "Maine_Coon",
+      "pred": "Bengal",
+      "n": 6
+    },
+    {
+      "gt": "Siamese",
+      "pred": "Ragdoll",
+      "n": 5
+    },
+    {
+      "gt": "British_Shorthair",
+      "pred": "Ragdoll",
+      "n": 4
+    },
+    {
+      "gt": "Maine_Coon",
+      "pred": "Persian",
+      "n": 4
+    },
+    {
+      "gt": "Abyssinian",
+      "pred": "Bengal",
+      "n": 3
+    },
+    {
+      "gt": "Bengal",
+      "pred": "Maine_Coon",
+      "n": 3
+    },
+    {
+      "gt": "Persian",
+      "pred": "Maine_Coon",
+      "n": 3
+    },
+    {
+      "gt": "Abyssinian",
+      "pred": "Ragdoll",
+      "n": 2
+    },
+    {
+      "gt": "Bengal",
+      "pred": "Abyssinian",
+      "n": 2
+    },
+    {
+      "gt": "Birman",
+      "pred": "Siamese",
+      "n": 2
+    },
+    {
+      "gt": "British_Shorthair",
+      "pred": "Russian_Blue",
+      "n": 2
+    },
+    {
+      "gt": "British_Shorthair",
+      "pred": "Egyptian_Mau",
+      "n": 2
+    },
+    {
+      "gt": "British_Shorthair",
+      "pred": "Maine_Coon",
+      "n": 2
+    },
+    {
+      "gt": "Russian_Blue",
+      "pred": "Abyssinian",
+      "n": 2
+    },
+    {
+      "gt": "Russian_Blue",
+      "pred": "Sphynx",
+      "n": 2
+    },
+    {
+      "gt": "Sphynx",
+      "pred": "Bombay",
+      "n": 2
+    },
+    {
+      "gt": "Sphynx",
+      "pred": "Abyssinian",
+      "n": 2
+    }
+  ]
+}

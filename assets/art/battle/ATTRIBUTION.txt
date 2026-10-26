@@ -1,0 +1,14 @@
+Catdex battle arena and card-frame visuals
+
+Source: generated specifically for the Catdex project and supplied by the
+project owner on 2026-10-26.
+License: licensed for use in this project.
+
+Files:
+- rooftop_arena.jpg
+- cafe_arena.jpg
+- card_frame.jpg
+
+The procedural fighter artwork is rendered at runtime from project-authored
+geometry and colors. Battle WAV files are generated mathematical waveforms; see
+tools/assets/generate_battle_sfx.py.

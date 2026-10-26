@@ -1,0 +1,9 @@
+Battle character pipeline
+-------------------------
+- Runtime: Esoteric Spine (spine_flutter) — industry-standard 2D skeletal animation
+- Runtime: Rive (rive) — interactive state-machine animation
+- Runtime: Lottie (lottie) — After Effects / Bodymovin exports
+- Photoreal pose plates: Catdex-generated key poses (idle/scratch/pounce/special)
+  packed as Spine atlas regions for cat_tabby / cat_black
+- Example skeletons (owl/raptor/dragon): Esoteric spine-runtimes examples
+- gray64 pixel pack: OpenGameArt "Gray cat asset pack" (CC0) by skristi

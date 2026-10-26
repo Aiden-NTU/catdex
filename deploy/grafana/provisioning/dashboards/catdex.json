@@ -1,0 +1,28 @@
+{
+  "annotations": {"list": []},
+  "editable": false,
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "Nakama request rate",
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "targets": [{"expr": "sum(rate(nakama_api_rpc_count[5m]))", "legendFormat": "RPC/s"}],
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}
+    },
+    {
+      "type": "logs",
+      "title": "Nakama logs",
+      "datasource": {"type": "loki", "uid": "loki"},
+      "targets": [{"expr": "{job=\"docker\"} |= \"nakama\""}],
+      "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0}
+    }
+  ],
+  "schemaVersion": 40,
+  "tags": ["catdex", "nakama"],
+  "templating": {"list": []},
+  "time": {"from": "now-6h", "to": "now"},
+  "timezone": "browser",
+  "title": "Catdex Operations",
+  "uid": "catdex-ops",
+  "version": 1
+}

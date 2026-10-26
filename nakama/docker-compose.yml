@@ -1,0 +1,55 @@
+# Local development stack. Production configuration lives in deploy/.
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: nakama
+      POSTGRES_USER: nakama
+      POSTGRES_PASSWORD: localdb
+    volumes:
+      - nakama_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "nakama", "-d", "nakama"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  nakama:
+    build:
+      context: .
+    environment:
+      CATDEX_ENROLLMENT_SECRET: local-development-secret-change-me-0001
+      CATDEX_ENROLLMENT_COOLDOWN_SECONDS: "3"
+      CATDEX_SEED_DEVELOPMENT_EVENTS: "true"
+      CATDEX_EVENT_SEED_LAT: "51.5074"
+      CATDEX_EVENT_SEED_LNG: "-0.1278"
+    entrypoint:
+      - /bin/sh
+      - -ec
+      - >
+        /nakama/nakama migrate up
+        --database.address nakama:localdb@postgres:5432/nakama &&
+        exec /nakama/nakama
+        --name catdex-nakama
+        --database.address nakama:localdb@postgres:5432/nakama
+        --logger.level INFO
+        --session.token_expiry_sec 7200
+        --socket.server_key localdevkey
+        --runtime.http_key localruntimekey
+        --console.username admin
+        --console.password local-console-password
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "7349:7349"
+      - "7350:7350"
+      - "7351:7351"
+    healthcheck:
+      test: ["CMD", "/nakama/nakama", "healthcheck"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  nakama_pg:

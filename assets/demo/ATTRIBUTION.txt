@@ -1,0 +1,3 @@
+cat.jpg — Unsplash photo (photo-1514888286974-6c03e2ca1dba)
+https://unsplash.com/photos/photo-1514888286974-6c03e2ca1dba
+Used for local Catdex POC desktop testing under the Unsplash License.

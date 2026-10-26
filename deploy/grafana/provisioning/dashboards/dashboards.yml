@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: Catdex
+    orgId: 1
+    folder: Catdex
+    type: file
+    disableDeletion: true
+    editable: false
+    options:
+      path: /etc/grafana/provisioning/dashboards

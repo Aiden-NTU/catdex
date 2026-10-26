@@ -1,0 +1,129 @@
+{
+  "n": 240,
+  "detect_rate": 1.0,
+  "breed_top1": 0.9333333333333333,
+  "breed_top1_given_detect": 0.9333333333333333,
+  "per_breed": {
+    "Abyssinian": {
+      "n": 20,
+      "ok": 19,
+      "detect": 20,
+      "acc": 0.95,
+      "detect_rate": 1.0
+    },
+    "Bengal": {
+      "n": 20,
+      "ok": 20,
+      "detect": 20,
+      "acc": 1.0,
+      "detect_rate": 1.0
+    },
+    "Birman": {
+      "n": 20,
+      "ok": 18,
+      "detect": 20,
+      "acc": 0.9,
+      "detect_rate": 1.0
+    },
+    "Bombay": {
+      "n": 20,
+      "ok": 20,
+      "detect": 20,
+      "acc": 1.0,
+      "detect_rate": 1.0
+    },
+    "British_Shorthair": {
+      "n": 20,
+      "ok": 20,
+      "detect": 20,
+      "acc": 1.0,
+      "detect_rate": 1.0
+    },
+    "Egyptian_Mau": {
+      "n": 20,
+      "ok": 20,
+      "detect": 20,
+      "acc": 1.0,
+      "detect_rate": 1.0
+    },
+    "Maine_Coon": {
+      "n": 20,
+      "ok": 17,
+      "detect": 20,
+      "acc": 0.85,
+      "detect_rate": 1.0
+    },
+    "Persian": {
+      "n": 20,
+      "ok": 20,
+      "detect": 20,
+      "acc": 1.0,
+      "detect_rate": 1.0
+    },
+    "Ragdoll": {
+      "n": 20,
+      "ok": 20,
+      "detect": 20,
+      "acc": 1.0,
+      "detect_rate": 1.0
+    },
+    "Russian_Blue": {
+      "n": 20,
+      "ok": 14,
+      "detect": 20,
+      "acc": 0.7,
+      "detect_rate": 1.0
+    },
+    "Siamese": {
+      "n": 20,
+      "ok": 17,
+      "detect": 20,
+      "acc": 0.85,
+      "detect_rate": 1.0
+    },
+    "Sphynx": {
+      "n": 20,
+      "ok": 19,
+      "detect": 20,
+      "acc": 0.95,
+      "detect_rate": 1.0
+    }
+  },
+  "top_confusions": [
+    {
+      "gt": "Russian_Blue",
+      "pred": "British_Shorthair",
+      "n": 6
+    },
+    {
+      "gt": "Siamese",
+      "pred": "Birman",
+      "n": 3
+    },
+    {
+      "gt": "Birman",
+      "pred": "Ragdoll",
+      "n": 2
+    },
+    {
+      "gt": "Maine_Coon",
+      "pred": "Bengal",
+      "n": 2
+    },
+    {
+      "gt": "Abyssinian",
+      "pred": "Russian_Blue",
+      "n": 1
+    },
+    {
+      "gt": "Maine_Coon",
+      "pred": "Ragdoll",
+      "n": 1
+    },
+    {
+      "gt": "Sphynx",
+      "pred": "Bombay",
+      "n": 1
+    }
+  ]
+}
